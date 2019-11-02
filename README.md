@@ -1,5 +1,6 @@
 # Java stream
 
+Stream เป็นเครื่องมือในการจัดการข้อมูลซึ่งมีประสิทธิภาพสูง สามารถกรอง(filter), เรียงลำดับ โดยจะเขียน code ได้สั้นลงมาก
 Stream เริ่มมีครั้งแรกใน Java 8 ผู้เขียนได้อ่านบทความจาก [dzone](www.dzone.com) เรื่อง [Become a Master of Java Streams](https://dzone.com/articles/become-a-master-of-java-streams-part-1-creating-st)
 เลยอยากเขียนเป็นของเราเอง(อยากเขียนมานานมาก) ซึ่งไม่ได้เป็นการแปลแต่อย่างใด การเขียนหรือการสอนบุคคลอื่นจะ
 ทำให้ความรู้ของเราเรื่องนั้นมีความเข้าใจยิ่งขึ้น
@@ -62,6 +63,10 @@ DoubleStream
 ```
 
 ```
+
+## intermediate operations
+เป็นการจัดการข้อมูลตร
+
 ## การใช้งาน stream เหมือน sql
 
 อ้างอิง
