@@ -57,7 +57,11 @@ IntStream
 LongStream
 DoubleStream
 ```
-การสร้าง stream ด้วย  Stream source แบบนี้จะทำให้จาวาสามารถสร้าง array ในลักษณะต่างได้อย่างง่ายด่
+การสร้าง stream ด้วย  Stream source แบบนี้จะทำให้จาวาสามารถสร้าง array ในลักษณะต่างได้อย่างง่ายดายเช่น array ของเลขสุ่มขนาด 10 ตัว, array ของเลข 1 ถึง 9 เป็นต้น
+การสร้าง stream ด้วย Stream source สามารถทำได้ดัง code ด้านล่าง
+```
+
+```
 ## การใช้งาน stream เหมือน sql
 
 อ้างอิง
