@@ -1,6 +1,6 @@
 # Java stream
 
-Stream เริ่มมีครั้งแรกใน Java 8 ผู้เขียนได้อ่านบทความจาก dzone [Become a Master of Java Streams](https://dzone.com/articles/become-a-master-of-java-streams-part-1-creating-st)
+Stream เริ่มมีครั้งแรกใน Java 8 ผู้เขียนได้อ่านบทความจาก [dzone](www.dzone.com) เรื่อง [Become a Master of Java Streams](https://dzone.com/articles/become-a-master-of-java-streams-part-1-creating-st)
 เลยอยากเขียนเป็นของเราเอง(อยากเขียนมานานมาก) ซึ่งไม่ได้เป็นการแปลแต่อย่างใด การเขียนหรือการสอนบุคคลอื่นจะ
 ทำให้ความรู้ของเราเรื่องนั้นมีความเข้าใจยิ่งขึ้น
 
@@ -49,6 +49,15 @@ Set s = Set.of(1, 2, 3);
 Stream s4 = s.stream();
 ```
 
+### การสร้าง stream จาก Stream source
+โดย Stream source เป็นเครื่องมือของจาวา 
+```
+Stream
+IntStream
+LongStream
+DoubleStream
+```
+การสร้าง stream ด้วย  Stream source แบบนี้จะทำให้จาวาสามารถสร้าง array ในลักษณะต่างได้อย่างง่ายด่
 ## การใช้งาน stream เหมือน sql
 
 อ้างอิง
